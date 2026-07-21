@@ -1,0 +1,221 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1784627241814,
+  "projectRoot": "/Users/abbassiahmed/Documents/Coding/Me/ahmed-portfolio",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "jsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "14.1.3",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "latest",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "latest",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "git stash && rm -rf .next && npm run build 2>&1 | tail -15; echo \"---RESTORING---\"; git stash pop",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "public"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1784627241753,
+      "keyFiles": [
+        "favicon.ico",
+        "layout.js",
+        "page.js"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 9,
+      "lastAccessed": 1784627241800,
+      "keyFiles": [
+        "blur-23.svg",
+        "card.png",
+        "grid.svg",
+        "hero.svg",
+        "next.svg"
+      ]
+    },
+    "utils": {
+      "path": "utils",
+      "purpose": "Utility functions",
+      "fileCount": 3,
+      "lastAccessed": 1784627241802,
+      "keyFiles": [
+        "check-email.js",
+        "skill-image.js",
+        "time-converter.js"
+      ]
+    },
+    "app/api": {
+      "path": "app/api",
+      "purpose": "API routes",
+      "fileCount": 0,
+      "lastAccessed": 1784627241804,
+      "keyFiles": []
+    },
+    "app/components": {
+      "path": "app/components",
+      "purpose": "UI components",
+      "fileCount": 2,
+      "lastAccessed": 1784627241807,
+      "keyFiles": [
+        "footer.jsx",
+        "navbar.jsx"
+      ]
+    },
+    "utils/data": {
+      "path": "utils/data",
+      "purpose": "Data files",
+      "fileCount": 6,
+      "lastAccessed": 1784627241809,
+      "keyFiles": [
+        "contactsData.js",
+        "educations.js",
+        "experience.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "utils/data/personal-data.js",
+      "accessCount": 2,
+      "lastAccessed": 1784627905728,
+      "type": "file"
+    },
+    {
+      "path": "utils/data/contactsData.js",
+      "accessCount": 2,
+      "lastAccessed": 1784627905991,
+      "type": "file"
+    },
+    {
+      "path": "utils/data/educations.js",
+      "accessCount": 2,
+      "lastAccessed": 1784627906230,
+      "type": "file"
+    },
+    {
+      "path": "utils/data/experience.js",
+      "accessCount": 2,
+      "lastAccessed": 1784627906469,
+      "type": "file"
+    },
+    {
+      "path": "utils/data/skills.js",
+      "accessCount": 2,
+      "lastAccessed": 1784627906699,
+      "type": "file"
+    },
+    {
+      "path": "utils/data/projects-data.js",
+      "accessCount": 2,
+      "lastAccessed": 1784627920443,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/projects/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627812105,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/experience/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627812480,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/education/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627813205,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/about/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627813539,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/skills/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627813872,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/projects/project-card.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627817520,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/projects/single-project.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784627825714,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
