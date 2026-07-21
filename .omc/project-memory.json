@@ -140,8 +140,8 @@
   "hotPaths": [
     {
       "path": "utils/data/personal-data.js",
-      "accessCount": 2,
-      "lastAccessed": 1784627905728,
+      "accessCount": 3,
+      "lastAccessed": 1784628206933,
       "type": "file"
     },
     {
@@ -214,6 +214,12 @@
       "path": "app/components/homepage/projects/single-project.jsx",
       "accessCount": 1,
       "lastAccessed": 1784627825714,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/hero-section/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784628210357,
       "type": "file"
     }
   ],

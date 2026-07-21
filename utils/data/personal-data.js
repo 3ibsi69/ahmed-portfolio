@@ -11,6 +11,5 @@ export const personalData = {
   facebook: "https://www.facebook.com/abbassi.ahmed.2002/",
   linkedIn: "https://www.linkedin.com/in/ahmed-abbassi-/",
   devUsername: "3ibsi",
-  resume:
-    "https://drive.google.com/file/d/1RDvuA2pVz18qePr6HVfmIYcxKNWgxBBk/view?usp=sharing",
+  resume: "/cv/Ahmed_Abbassi_Resume_EN.pdf",
 };
