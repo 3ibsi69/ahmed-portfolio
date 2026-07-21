@@ -140,8 +140,26 @@
   "hotPaths": [
     {
       "path": "utils/data/personal-data.js",
+      "accessCount": 4,
+      "lastAccessed": 1784628670370,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/contact/contact-without-captcha.jsx",
       "accessCount": 3,
-      "lastAccessed": 1784628206933,
+      "lastAccessed": 1784628679163,
+      "type": "file"
+    },
+    {
+      "path": "app/api/contact/route.js",
+      "accessCount": 3,
+      "lastAccessed": 1784628793303,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 3,
+      "lastAccessed": 1784628800099,
       "type": "file"
     },
     {
@@ -172,6 +190,12 @@
       "path": "utils/data/projects-data.js",
       "accessCount": 2,
       "lastAccessed": 1784627920443,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/contact/index.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1784628686757,
       "type": "file"
     },
     {
@@ -220,6 +244,30 @@
       "path": "app/components/homepage/hero-section/index.jsx",
       "accessCount": 1,
       "lastAccessed": 1784628210357,
+      "type": "file"
+    },
+    {
+      "path": "app/components/homepage/contact/contact-with-captcha.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1784628610144,
+      "type": "file"
+    },
+    {
+      "path": "app/api/google/route.js",
+      "accessCount": 1,
+      "lastAccessed": 1784628632739,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1784628693143,
+      "type": "file"
+    },
+    {
+      "path": ".env.local",
+      "accessCount": 1,
+      "lastAccessed": 1784628807842,
       "type": "file"
     }
   ],
